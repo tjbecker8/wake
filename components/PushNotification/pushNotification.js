@@ -61,13 +61,22 @@ export const Notification = ({ navigation }) => {
       userInteraction: false,
       message: "My Notification Message",
       userInfo: { id: '123' },
+      id: '123',
       color: "red",
       ignoreInForeground: false,
       playSound: true,
       soundName: "BadReputation.aiff",
-      alertBody: "this is alert Body"
+      alertBody: "this is alert Body",
+      autoCancel: false,
+      ongoing: true,
 });
 }
+
+  const stopNotification = () => {
+    const userInfo = {id: '123'}
+    console.log("stop");
+    PushNotificationIOS.cancelLocalNotifications(userInfo);
+  }
 
   const navigateBack = () => {
     navigation.goBack();
@@ -93,6 +102,7 @@ export const Notification = ({ navigation }) => {
         />
         <Button onPress={handleClick} >Display Text</Button>
         <Button onPress={notification} >Notification</Button>
+        <Button onPress={stopNotification} >Stop Notification</Button>
 
       </Layout>
 
