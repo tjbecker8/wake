@@ -60,7 +60,12 @@ export const Notification = ({ navigation }) => {
       foreground: false,
       userInteraction: false,
       message: "My Notification Message",
-      userInfo: { id: '123' }
+      userInfo: { id: '123' },
+      color: "red",
+      ignoreInForeground: false,
+      playSound: true,
+      soundName: "BadReputation.aiff",
+      alertBody: "this is alert Body"
 });
 }
 

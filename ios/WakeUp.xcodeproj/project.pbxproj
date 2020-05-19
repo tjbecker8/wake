@@ -19,6 +19,8 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* WakeUpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* WakeUpTests.m */; };
 		4B47856DDD490061730EF741 /* libPods-WakeUp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06EF9112B99E8C870A2BABF1 /* libPods-WakeUp-tvOSTests.a */; };
+		93738E412473F9BD0001E9DB /* BadReputation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93738E402473F9BD0001E9DB /* BadReputation.mp3 */; };
+		93738E472473FEA30001E9DB /* BadReputation.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 93738E462473FEA30001E9DB /* BadReputation.aiff */; };
 		BF35714F67FC09DA00EEE31F /* libPods-WakeUp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D300FD20419599DF1E967E08 /* libPods-WakeUp-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +61,8 @@
 		623D6EBC939641D9C50410E8 /* Pods-WakeUp-WakeUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeUp-WakeUpTests.debug.xcconfig"; path = "Target Support Files/Pods-WakeUp-WakeUpTests/Pods-WakeUp-WakeUpTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6B02B6446436BF000E71DEC5 /* Pods-WakeUp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeUp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-WakeUp-tvOSTests/Pods-WakeUp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6E8E59F50693F1D250959E3B /* Pods-WakeUp-WakeUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeUp-WakeUpTests.release.xcconfig"; path = "Target Support Files/Pods-WakeUp-WakeUpTests/Pods-WakeUp-WakeUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		93738E402473F9BD0001E9DB /* BadReputation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BadReputation.mp3; path = ../components/PushNotification/BadReputation.mp3; sourceTree = "<group>"; };
+		93738E462473FEA30001E9DB /* BadReputation.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = BadReputation.aiff; path = ../../../../Downloads/BadReputation.aiff; sourceTree = "<group>"; };
 		93B044D524716DEB00164FB0 /* WakeUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = WakeUp.entitlements; path = WakeUp/WakeUp.entitlements; sourceTree = "<group>"; };
 		A0628EC65A3C68128AD748C9 /* Pods-WakeUp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeUp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-WakeUp-tvOS/Pods-WakeUp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A6E019CB6B5C5A41BA274E57 /* Pods-WakeUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WakeUp.release.xcconfig"; path = "Target Support Files/Pods-WakeUp/Pods-WakeUp.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +173,8 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				93738E402473F9BD0001E9DB /* BadReputation.mp3 */,
+				93738E462473FEA30001E9DB /* BadReputation.aiff */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -339,6 +345,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93738E472473FEA30001E9DB /* BadReputation.aiff in Resources */,
+				93738E412473F9BD0001E9DB /* BadReputation.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
